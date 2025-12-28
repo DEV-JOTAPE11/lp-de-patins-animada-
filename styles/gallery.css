@@ -109,3 +109,44 @@ section.gallery {
     transform: translateY(100%);
   }
 }
+
+@media (width <= 50rem) {
+  section.gallery{
+
+    & header span {
+      font-size: 0.75rem;
+      margin-bottom: .5rem;
+    }
+
+    & header h2{
+      font-size: 1.5rem;
+    }
+
+    & .content {
+      grid-template-areas:
+        'A'
+        'B'
+        'C'
+        'D';
+
+      gap: 1.5rem;
+
+      & figure > img {
+        height: 30rem;
+      }
+    }
+  }
+}
+
+@media (width <= 400px) {
+  section.gallery{
+
+    & .content {
+
+      & figure > img {
+        height: 16rem;
+      }
+    }
+  }
+}
+
