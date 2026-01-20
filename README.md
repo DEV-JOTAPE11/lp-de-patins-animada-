@@ -1,5 +1,8 @@
 🛼 Snitap - Landing Page Animada
 
+<p align="center">
+  <img alt="Preview do Portfólio" src="assets/lp-animation.png" width="100%" style="border-radius: 8px; border: 2px solid #00eeff;">
+</p>
 
 Uma Landing Page vibrante e interativa desenvolvida para uma marca fictícia de patins, focada em micro-interações e animações modernas com CSS puro. Desenvolvido durante as aulas da Rocketseat.
 
